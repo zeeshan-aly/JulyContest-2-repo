@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accio-contest-2</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- navigation bar  -->
+    <nav>
+      <ul class="navBar flex1">
+        <li class="nav_left flex1">
+          <img src="./Group 23.png" alt="Comapany logo" />
+
+          <p><a href="#">Blog</a></p>
+        </li>
+        <li class="nav_right flex1">
+          <div>
+            <i class="fa-solid fa-caret-down"></i>
+            <a href="#">Archives</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-cart-shopping"></i>
+            <a href="#">Store</a>
+          </div>
+
+          <button>Get a Quote</button>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- main- hero section -->
+
+    <div class="hero flex1">
+      <div class="hero_text">
+        <h2 class="hero_heading">Let's Explore</h2>
+
+        <h2 class="hero_heading">New Possibilities..</h2>
+        <div class="hero_search_bar">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" placeholder="How to, etc..." />
+          <button>Search</button>
+        </div>
+        <div class="hero_tag">
+          <span>#design</span>
+          <span>#Develope</span>
+          <span>#Market</span>
+        </div>
+      </div>
+
+      <div class="hero_img">
+        <img src="./Group.png" alt="" />
+      </div>
+    </div>
+
+    <!-- Latest Blog Section -->
+
+    <div class="latest_blog">
+      <div class="latest_blog_img">
+        <img src="./Rectangle 31 (1).png" alt="Latest Blog" height="350px" />
+      </div>
+
+      <div class="blog_content flex1">
+        <div>
+          <h1 class="blog_heading">Latest post heading sample example..</h1>
+        </div>
+
+        <div class="author_date flex1">
+          <p id="name">By Author Name</p>
+          <p id="date">23 dec.</p>
+        </div>
+
+        <div class="blog_para more_para">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+            minima neque animi itaque eveniet, reiciendis culpa saepe ullam id
+            sit temporibus? Optio reprehenderit mollitia error, ullam molestiae
+            cupiditate corporis consectetur? Modi nisi sunt consequatur
+            deleniti, aliquam dolores ipsum dolorem nulla necessitatibus
+            voluptatem quo nobis et expedita, maxime autem praesentium?
+            Laudantium nisi amet dicta delectus ut in nobis. Aut, id quo.
+            Doloremque culpa ullam hic nisi id quis cupiditate praesentium quam,
+            soluta alias rerum fuga? Nam soluta possimus, perspiciatis dolorum
+            odit repudiandae ratione molestiae cum odio ad minima similique!
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis,
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+            doloremque quaerat, ad commodi laborum enim illo quia eligendi
+            magnam minus? aliquam? Harum, repudiandae? Lorem ipsum dolor sit
+            amet consectetur adipisicing elit. Iure, numquam. Lorem ipsum dolor
+            sit amet consectetur adipisicing elit. Alias, laborum!
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- more blogs section -->
+
+    <div class="moreBlog_section flex1">
+      <!-- item-1 -->
+      <div class="item">
+        <!-- item-1 image -->
+        <div class="more_blog_img">
+          <img src="./Rectangle 15.png" alt="" />
+        </div>
+        <!-- item-1 content -->
+        <div class="blog_content item_content flex1">
+          <div>
+            <h1 class="more_head">Latest post heading sample example..</h1>
+          </div>
+
+          <div class="author_date flex1">
+            <p id="name">By Author Name</p>
+            <p id="date">23 dec.</p>
+          </div>
+
+          <div class="blog_para more_para">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+              minima neque animi itaque eveniet, reiciendis culpa saepe ullam id
+              sit temporibus? Optio reprehenderit mollitia error,
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- item-2 -->
+
+      <div class="item">
+        <!-- item-2 image -->
+        <div class="more_blog_img">
+          <img src="./Rectangle 15.png" alt="" />
+        </div>
+        <!-- item-2 content -->
+        <div class="blog_content item_content flex1">
+          <div>
+            <h1 class="more_head">Latest post heading sample example..</h1>
+          </div>
+
+          <div class="author_date flex1">
+            <p id="name ">By Author Name</p>
+            <p id="date">23 dec.</p>
+          </div>
+
+          <div class="blog_para more_para">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+              minima neque animi itaque eveniet, reiciendis culpa saepe ullam id
+              sit temporibus? Optio reprehenderit mollitia error,
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- item-3 -->
+
+      <div class="item">
+        <!-- item-3 image -->
+        <div class="more_blog_img">
+          <img src="./Rectangle 15.png" alt="" />
+        </div>
+        <!-- item-3 content -->
+        <div class="blog_content item_content flex1">
+          <div>
+            <h1 class="more_head">Latest post heading sample example..</h1>
+          </div>
+
+          <div class="author_date flex1">
+            <p id="name">By Author Name</p>
+            <p id="date">23 dec.</p>
+          </div>
+
+          <div class="blog_para more_para">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+              minima neque animi itaque eveniet, reiciendis culpa saepe ullam id
+              sit temporibus? Optio reprehenderit mollitia error,
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer section -->
+
+    <footer class="foot flex1">
+      <div class="footer_content">
+        <h3>Download</h3>
+        <h1>Otarea educore App</h1>
+        <h4>For non stop learning</h4>
+
+        <button>Download now</button>
+      </div>
+      <div class="footer_img">
+        <img src="./Group (1).png" alt="" />
+      </div>
+    </footer>
+
+    <script
+      src="https://kit.fontawesome.com/0b381e01ab.js"
+      crossorigin="anonymous"></script>
+  </body>
+</html>
